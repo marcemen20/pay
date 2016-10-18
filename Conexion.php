@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-<?php 
+ <?php 
  class Conexion extends PDO { 
    private $tipo_de_base = 'mysql';
    private $host = 'localhost';
-   private $nombre_de_base = 'peliculas';
+   private $nombre_de_base = 'pay';
    private $usuario = 'root';
    private $contrasena = ''; 
    public function __construct() {
